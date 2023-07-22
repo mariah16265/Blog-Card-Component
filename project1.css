@@ -1,0 +1,84 @@
+body{
+    align-items: center;
+    background-color:  hsl(30, 38%, 92%);
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    width:100vw;
+}
+.photo{
+    height: 480px;
+
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 40px;
+    height: 480px;
+    width:360px;
+    }
+    h2{
+        font-family: Montserrat;
+        color:hsl(228, 12%, 48%);
+        font-size:12px ;
+        font-weight: 500;
+        letter-spacing: 10px;
+
+    }
+    h1{
+        font-family: Fraunces;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 35px;
+        width: 250px;
+    }
+    .description{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:220px;
+        color:hsl(228, 12%, 48%);
+    }
+    .price{
+        color:hsl(158, 36%, 37%);
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 200px;
+    }
+    .sale{
+        color:hsl(158, 36%, 37%);
+        font-family: Fraunces;
+        font-size: 30px;
+        justify-content: space-betweens;
+        
+    }
+    .regular{
+        color:(228, 12%, 48%);
+        font-family: Montserrat;
+        font-size: 13px;
+        text-decoration: line-through;
+    }
+    button{
+        background-color:hsl(158, 36%, 37%); 
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Montserrat;
+        font-weight: 700;
+        padding: 15px;
+
+    }
+    button:hover{
+        background-color:hsl(160, 48%, 18%); 
+        cursor: pointer;
+    }
+    button #w{
+        height: 20px;
+
+    }
